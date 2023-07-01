@@ -1,0 +1,26 @@
+Day 3 Assignment
+
+Ans 1: Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows 
+
+Ans 2: Version control, also known as source control, is the practice of tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time.
+
+Ans 3: GitHub is a web-based version control and collaboration platform for software developers. Microsoft, the biggest single contributor to GitHub, acquired the platform  in 2018. GitHub, which is delivered through a software as a service (SaaS) business model, was started in 2008.
+
+Ans 4:
+Gitlab
+GitBucket
+CodeBase
+Gerrit etc
+
+Ans 5:There are two types of version control Systems : Centralized and Disturbed. 
+
+Ans 6: 1  Feature Branch workflow
+           2  Distributed development
+          3   Faster release cycle
+          4   Pull requests
+          5   Can be beneficial for product management
+
+
+Ans 7: A Git repository  tracks and saves the history of all changes made to the Git project. It saves this data in a directory called . git , also known as the repository folder. Git uses a version control system to track all changes made to the project and save them in the repository
+
+Ans 8:The Git  'init' command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository.

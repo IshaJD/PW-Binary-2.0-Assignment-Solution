@@ -1,0 +1,134 @@
+Answers of Assignment 2 (22 May) 
+Operator and Loops
+
+Ans1 : They are used when a condition comprises more than one boolean expression. For instance  if we want to 
+Print a number only if it is greater than 2 and less than 5 then we will use conditional operators to combine the 2 expressions. We have 3 types of conditional operators - logical-and  logical-or and ternary operators. 
+
+
+Logical-and operator (&&)
+
+It is used when we want the condition to be true if both the conditions are true. 
+
+Logical-or operator (||)
+
+This operator is used when we are satisfied as long as any one of the boolean expressions is evaluated as true
+
+Ternary operator (?:)
+
+It is a smallest version for the if-else statement. If the condition is true then the statement - 1 is executed else the 
+statement - 2 is executed. 
+
+
+Ans 2 : These are the three types of operators in java - 
+. Unary Operator
+. Binary Operator
+. Ternary Operator
+
+Ans3 :  Switch statement
+
+The switch case in java is used to select one of many code blocks for execution.
+
+
+Break keyword: As java Reaches a break keyword the control breaks out of the switch block. The execution of 
+code stops on encountering this keyword and the case testing inside the block ends as the match is found. A lot of execution time can be saved because it ignores  the rest of the code's execution when there is a break. 
+
+Default keyword : The keyword is used to specify the code executed when the expression does not match any 
+test case.
+
+
+The switch case in Java works like an if-else ladder i.e. multiple conditions can be checked at once. Switch is provided with an expression that can be a constant or literal expression that can be evaluated. The value of the  expression is matched with each test case till a match is found. If there is no match the default keyword if 
+specified- the associated code executes. Otherwise the code specified for the matched test case is executed.
+Example: 
+int month = 4;
+
+    	switch (month) {
+
+      	case 1:
+
+        		System.out.println("January");
+
+       	 	break;
+
+      	case 2:
+
+        		System.out.println("February");
+
+        		break;
+
+      	case 3:
+
+        		System.out.println("March");
+
+        		break;
+
+      	case 4:
+
+        		System.out.println("April");
+
+       		 break;
+
+      	case 5:
+
+        		System.out.println("May");
+
+        		break;
+
+      	case 6:
+
+        		System.out.println("June");
+
+       	 	break;
+
+     	default: System.out.println("Invalid");
+
+Output: April
+
+Ans 4: The two priority levels are :
+High Priority: * / %
+Low Priority: + - 
+
+Ans 5: A set of rules considered valid if certain conditions are met. They start with a hypothesis and end with a conclusion and are sometimes referred to as if-else statements
+ Conditionals are used to help you to make a decision based on certain conditions. These conditions are specified by a set of conditional statements having boolean expressions which are evaluated to a boolean value of true or false.
+
+Ans 6: if (condition) {
+  // block of code to be executed if the condition is true
+} else {
+  // block of code to be executed if the condition is false
+}
+
+
+Ans 7: The three iterative statements are -
+For loop
+While loop
+Do-while loop
+
+Ans 8: 
+
+
+  For loop
+Do - while loop
+Syntax: For(initialization; condition;updating), { . Statements; }
+Syntax: Do { . Statements; } While(condition);
+	It is known as entry controlled loop
+	It is known as exit controlled loop
+If the condition is not true first time than control will never enter in a loop
+Even if the condition is not true for the first time the control will enter in a loop.
+For loop is use when we know the number of iterations means where the loop will terminate
+Do while loop is use when we don't know the number of iterations means where the loop will terminate
+
+ 
+Ans 9: public class For_Loop
+{
+    public static void main(String[] args)
+    {
+        for(int i = 1; i <= 10; i++)
+        {
+            System.out.println(i);
+        }
+    }
+}
+
+
+
+
+

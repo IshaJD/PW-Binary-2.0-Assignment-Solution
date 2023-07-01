@@ -1,0 +1,83 @@
+Assignment solutions 5june(Assign ques 1) 
+
+Ans 1: program to reverse
+
+public class StringFormatter {  
+public static String reverseString(String str){  
+    char ch[]=str.toCharArray();  
+    String rev="";  
+    for(int i=ch.length-1;i>=0;i--){  
+        rev+=ch[i];  
+    }  
+    return rev;  
+}  
+}  
+Ans 2: To check palindrome string
+class PalindromeExample
+{  
+   public static void main(String args[])  
+   {  
+      String original, reverse = ""; // Objects of String class  
+      Scanner in = new Scanner(System.in);   
+      System.out.println("Enter a string/number to check if it is a palindrome");  
+      original = in.nextLine();   
+      int length = original.length();   
+      for ( int i = length - 1; i >= 0; i-- )  
+         reverse = reverse + original.charAt(i);  
+      if (original.equals(reverse))  
+         System.out.println("Entered string/number is a palindrome.");  
+      else  
+         System.out.println("Entered string/number isn't a palindrome.");   
+   }  
+}  
+Ans 3: public class changeCase {    
+    public static void main(String[] args) {    
+            
+        String str1="Great Power";    
+        StringBuffer newStr=new StringBuffer(str1);    
+            
+        for(int i = 0; i < str1.length(); i++) {    
+                
+            //Checks for lower case character    
+            if(Character.isLowerCase(str1.charAt(i))) {    
+                //Convert it into upper case using toUpperCase() function    
+                newStr.setCharAt(i, Character.toUpperCase(str1.charAt(i)));    
+            }    
+            //Checks for upper case character    
+            else if(Character.isUpperCase(str1.charAt(i))) {    
+                //Convert it into upper case using toLowerCase() function    
+                newStr.setCharAt(i, Character.toLowerCase(str1.charAt(i)));    
+            }    
+        }    
+        System.out.println("String after case conversion : " + newStr);    
+    }    
+}     
+Ans 4 : To remove a particular character
+public class RemoveChar {  
+    public static void main(String[] args) {  
+              String str = "India is my country";  
+              System.out.println(charRemoveAt(str, 7));  
+           }  
+           public static String charRemoveAt(String str, int p) {  
+              return str.substring(0, p) + str.substring(p + 1);  
+           }  
+}  
+
+
+Ans 5: public class IndexOfExample2 {
+public static void main(String[] args) {
+String s1 = "This is indexOf method";
+// Passing Substring.
+int index = s1.indexOf("method"); //Returns the index of this substring.
+System.out.println("index of substring "+index);
+}
+}
+
+
+
+
+
+
+
+
+

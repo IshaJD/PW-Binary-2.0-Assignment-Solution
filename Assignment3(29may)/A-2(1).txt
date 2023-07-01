@@ -1,0 +1,35 @@
+29 May Assignment Solutions
+
+Ans 1 : There are several ways by which we can create objects of a class in java as we all know a class provides the 
+blueprint for objects, you create an object from a class. This concept is under-rated  and proves to be  beneficial as this concept is bypassed by many programmers and sometimes even so ask from interviews. 
+
+Methods
+There are Many different ways to create objects in java–
+
+A   Using new keyword
+B    Using new instance
+C   U sing clone() Method
+D    Using Deserialization
+E   Using newInstance()  method
+
+
+Ans 2 : The "new" keyword in java is used to create an instance of an object. It allocates memory to an object  and  returns a reference to the object creates. It is used with a constructor to create an object.
+
+Ans 3:   Static Variable
+              Instance Variables
+              Local Variables
+
+Ans 4: Local variable: This is a variable that is declared inside the body of a method. 
+It is allocated in stack. 
+
+Instance variable: This Java variable is defined without the STATIC keyword, but as outside of a method declaration. They are object-specific variables, which is why they are known by this name
+
+It is allocated in heap. 
+
+
+
+Ans 5: Instance variables are allocated in the heap and local variables are allocated in the stack.
+
+Ans 6: Method overloading in Java is a feature that allows a class to have multiple methods with the same name 
+but different parameters. The Java compiler distinguishes these methods by the number, type, and order of 
+parameters. Overloading is used to provide multiple ways to call a method for different use cases, making code readable and usable. 

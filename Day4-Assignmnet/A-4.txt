@@ -1,0 +1,29 @@
+Day 4 Assignment Solutions
+
+Ans 1: We can check our current version of Git by running the  git  - - version command in a terminal and whether git is present in the system or not
+
+Ans 2:By using the git init command we can initialize an empty new git repository. 
+
+Ans 3:   Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
+
+Set your email address: git config --global user.email "name@gmail.com"
+
+
+Ans 4: The "add" command  in git add the file to staging area
+If you want to add one file then use - git add <filename>
+If you want to add all files then use - git add  . 
+Ans 5:   " git rm <filename> " is used to remove a file from the staging area 
+
+
+Ans 6: using the command "git commit -m "commit message" we can commit the file. 
+
+
+Ans 7: To send changes to remote repository we use the command git push -u remote-name branch name 
+
+
+Ans 8: git clone
+The clone command in git is used when you want to download an existing git repository to your local computer.
+git pull
+When you want to take changes or updates done by other developer/team member on git repository, you have to use git pull.
+In detail git pull is the command that fetches the content from a remote repository and integrates it with the local repository/branch. It is, in actuality, a combination of git fetch and git merge called in that order.
+

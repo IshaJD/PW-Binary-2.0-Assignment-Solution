@@ -1,0 +1,21 @@
+Assignment Solution (15 May) 
+Computer Basics
+
+Ans 1 : Computer is an electronic device for storing and processing data, typically in binary form, according to 
+instructions given to it in a variable program. 
+
+Ans 2 : RAM which stands for Random Access Memory, is a hardware device generally located on the 
+motherboard of a computer and acts as an internal memory of the CPU. It allows CPU store data, program, and 
+program results when you switch on the computer.
+
+Ans 3: CPU
+
+Ans 4 : Keyboard
+
+Ans 5 : Output devices are: Monitor, Printer, etc.
+
+Ans 6 : Mouse
+
+Ans 7 : Machine Language or machine code, is a low-level language composed of binary digits (ones and zeros).
+
+Ans 8 : Input devices are: Keyboard, Mouse, Joystick..
